@@ -1,0 +1,291 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,600&family=Varela+Round&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Nabla&family=Poppins:wght@500&family=Shadows+Into+Light&display=swap');
+</style>
+
+
+
+*{margin: 0px;padding: 0px;}
+html,body {height: 100%;
+    width: 100%;
+  overflow-x: hidden; 
+  overflow-y: hidden;/* Hide the default scroll bars on the body */
+
+}
+nav img {
+  width: 8%;
+  padding-right: 5px;
+}
+.main {
+  width: 100%;
+  height: 100vh; /* Adjust the height as needed */
+  position: relative; /* Set position to relative */
+  background-color: rgba(0, 0, 0, .5);
+ 
+
+  /* Add pseudo-element for background color with opacity */
+  &:before {
+    content: "";
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
+    /* Set the background color with opacity */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place it behind the content */
+    opacity: .9;
+    background-image: url("pexels-matthias-groeneveld-4200745.jpg");
+  }
+
+  color: aliceblue;
+}
+nav{ text-shadow: 2px 2px 9px rgb(249, 245, 245);display: flex;align-items: center;padding-top: 10px;}
+.navright{flex: 1; padding-left: 40px;font-size: 25px;}
+.navleft{flex: 1; text-align: end;padding-right: 20px;}
+button:hover{background-color: aliceblue;}
+
+.container {text-align: center;
+    width: 622px;
+    height: 550px;
+    background-color: rgba(245, 245, 220, 0.4);
+    position: relative;
+    border-radius: 25px;
+    z-index: 3;
+    text-shadow: 2px 2px 11px rgba(249, 249, 249, 0.4);
+    padding-top: 20px;font-family: 'Anton', sans-serif;
+   ;color: black;  box-shadow: 1px 0px 6px 3px rgb(0, 0, 0);}
+
+
+  .mid{width: 100%;height: 10vh;}
+  .bottom{position: sticky;
+    display: flex;justify-content: center;align-items: center;}
+#progressbar{width: 30vw;}
+.play{text-align: center;
+    height: 79px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 182px;
+    margin: auto;
+    text-shadow: 2px 2px 11px rgba(249, 249, 249, 0.4);margin-top: 10px;
+  }
+
+  .song{width: 400px;
+    height: 34px;
+    background-color: rgb(225, 219, 219,0);
+    border-radius: 22px;
+    margin: 7px auto;
+     
+    margin-top: 10px;
+    text-align: left;
+    font-family: 'Nabla', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    margin-top: 37px;
+    font-size: large;
+    font-weight: bolder;
+    text-shadow: 2px 2px 11px rgba(4, 4, 4, 1);
+  }
+    .song img{width: 61px;  box-shadow: 1px 0px 6px 3px rgb(0, 0, 0); ;}
+    .container span{padding-left: 31px; color: aliceblue;text-shadow: 3px 2px 1px rgb(4, 4, 4);
+    }
+    .mid{text-align: center;padding-top: 30px;}
+
+    span:hover{cursor: pointer;color: rgb(255, 248, 248) ;text-shadow: 3px 2px 3px  rgb(253, 105, 105);text-decoration: solid;}
+
+   a{text-decoration: none;  color: aliceblue;}
+li{list-style: none;}
+ul{text-decoration: none; display: flex; gap: 10px; color: aliceblue;}
+    .credits { display: flex;
+        position: fixed;
+        bottom: 26px;
+        right: 46px;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 13px;
+        font-family: 'Belanosima', sans-serif;
+        color: white;
+        text-shadow: 1px 1px 4px rgb(255, 255, 255,);
+        text-shadow: 2px 2px 11px rgb(0, 0, 0);
+      }
+      
+    
+.bottom span{padding-left: 100px;}
+    /* resposive */
+    /* Small screens (e.g., smartphones) */
+@media (max-width: 767px) {
+    /* Adjust font sizes for readability */
+    body {
+      font-size: 14px;
+      overflow-x: hidden; 
+      overflow-y: hidden;
+    }
+  
+    /* Adjust the width of the container for smaller screens */
+    .container {
+      width: 80%;
+    }
+  
+    /* Center-align navigation items for small screens */
+    nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    /* Reduce padding and font size for song elements */
+    .song {
+      padding-left: 15px;
+      font-size: medium;
+    }
+  
+    /* Adjust padding for the song name in the middle */
+    .mid {
+      padding-top: 10px;
+    }
+  
+    /* Center-align the progress bar */
+    .bottom {
+      text-align: center;
+    }
+  
+    /* Adjust the size and spacing of the play buttons */
+    .play {
+      height: 60px;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    /* Adjust font sizes for readability */
+    body {
+      font-size: 14px;
+      overflow-x: hidden; 
+      overflow-y: hidden;
+    }
+  
+    /* Adjust the width of the container for smaller screens */
+    .container {margin-top: 19px;
+      width: 80%;
+    }
+  
+    /* Center-align navigation items for small screens */
+    nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    /* Reduce padding and font size for song elements */
+    .song {
+      padding-left: 15px;
+      font-size: medium;
+    }
+  
+    /* Adjust padding for the song name in the middle */
+    .mid {
+      padding-top: 10px;
+    }
+  
+    /* Center-align the progress bar */
+    .bottom {
+      text-align: center;
+    }
+  
+    /* Adjust the size and spacing of the play buttons */
+    .play {
+      height: 60px;margin-top: 0px;
+    }
+    #progressbar{width: 80vw;}
+    .mid {
+        width: 100%;
+        height: 6vh;
+  }
+  .navleft {
+    flex: 1;
+    text-align: end;
+    padding-right: 20px;
+    padding-top: 20px;}
+    nav img {
+        width: 10%;
+        padding-right: 5px;
+      }
+    }
+ 
+  @media (max-width: 470px) {
+    /* Adjust font sizes for readability */
+    body {
+      font-size: 10px;
+      overflow-x: hidden; 
+      overflow-y: hidden;
+    }
+  
+    /* Adjust the width of the container for smaller screens */
+    .container {margin-top: 15px;
+      width: 80%;
+    }
+  
+    /* Center-align navigation items for small screens */
+    nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    /* Reduce padding and font size for song elements */
+    .song {
+      padding-left: 11px;
+      font-size: xx-small;
+    }
+  
+    /* Adjust padding for the song name in the middle */
+    .mid {
+      padding-top: 8px;
+    }
+  
+    /* Center-align the progress bar */
+    .bottom {
+      text-align: center;
+    }
+  
+    /* Adjust the size and spacing of the play buttons */
+    .play {
+      height: 50px;margin-top: 0px;
+    }
+    #progressbar{width: 80vw;}
+    .mid {
+        width: 100%;
+        height: 4vh;
+  }
+  .navleft {
+    flex: 1;
+    text-align: end;
+    padding-right: 16px;
+    padding-top: 16px;}
+    nav img {
+       
+        padding-right: 5px;
+      }
+
+  .container {text-align: center;
+    width: 80%;
+    height: 490px;
+    background-color: rgba(245, 245, 220, 0.4);
+    position: relative;
+    border-radius: 25px;
+    z-index: 3;
+    text-shadow: 2px 2px 11px rgba(249, 249, 249, 0.4);
+    padding-top: 20px;font-family: 'Anton', sans-serif;
+   ;color: black;  box-shadow: 1px 0px 6px 3px rgb(0, 0, 0);}
+
+
+   .song img{width: 39px;}
+
+  }
