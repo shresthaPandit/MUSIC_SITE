@@ -56,7 +56,7 @@ button:hover{background-color: aliceblue;}
     border-radius: 25px;
     z-index: 3;
     text-shadow: 2px 2px 11px rgba(249, 249, 249, 0.4);
-    padding-top: 20px;font-family: 'Anton', sans-serif;
+    padding-top: 20px; font-family: 'Bebas Neue', sans-serif;
    ;color: black;  box-shadow: 1px 0px 6px 3px rgb(0, 0, 0);}
 
 
@@ -82,9 +82,7 @@ button:hover{background-color: aliceblue;}
      
     margin-top: 10px;
     text-align: left;
-    font-family: 'Nabla', cursive;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Bebas Neue', sans-serif;
     margin-top: 37px;
     font-size: large;
     font-weight: bolder;
@@ -100,21 +98,7 @@ button:hover{background-color: aliceblue;}
    a{text-decoration: none;  color: aliceblue;}
 li{list-style: none;}
 ul{text-decoration: none; display: flex; gap: 10px; color: aliceblue;}
-    .credits { display: flex;
-        position: fixed;
-        bottom: 26px;
-        right: 46px;
-        color: white;
-        padding: 5px 10px;
-        border-radius: 5px;
-        font-size: 13px;
-        font-family: 'Belanosima', sans-serif;
-        color: white;
-        text-shadow: 1px 1px 4px rgb(255, 255, 255,);
-        text-shadow: 2px 2px 11px rgb(0, 0, 0);
-      }
-      
-    
+
 .bottom span{padding-left: 100px;}
     /* resposive */
     /* Small screens (e.g., smartphones) */
@@ -143,6 +127,7 @@ ul{text-decoration: none; display: flex; gap: 10px; color: aliceblue;}
     .song {
       padding-left: 15px;
       font-size: medium;
+       font-family: 'Bebas Neue', sans-serif;
     }
   
     /* Adjust padding for the song name in the middle */
@@ -171,7 +156,7 @@ ul{text-decoration: none; display: flex; gap: 10px; color: aliceblue;}
   
     /* Adjust the width of the container for smaller screens */
     .container {margin-top: 19px;
-      width: 80%;
+      width: 80%; font-family: 'Bebas Neue', sans-serif;
     }
   
     /* Center-align navigation items for small screens */
@@ -185,7 +170,7 @@ ul{text-decoration: none; display: flex; gap: 10px; color: aliceblue;}
     /* Reduce padding and font size for song elements */
     .song {
       padding-left: 15px;
-      font-size: medium;
+      font-size: medium; font-family: 'Bebas Neue', sans-serif;
     }
   
     /* Adjust padding for the song name in the middle */
@@ -228,7 +213,7 @@ ul{text-decoration: none; display: flex; gap: 10px; color: aliceblue;}
   
     /* Adjust the width of the container for smaller screens */
     .container {margin-top: 15px;
-      width: 80%;
+      width: 80%; font-family: 'Bebas Neue', sans-serif;
     }
   
     /* Center-align navigation items for small screens */
@@ -242,7 +227,7 @@ ul{text-decoration: none; display: flex; gap: 10px; color: aliceblue;}
     /* Reduce padding and font size for song elements */
     .song {
       padding-left: 11px;
-      font-size: xx-small;
+      font-size: xx-small; font-family: 'Bebas Neue', sans-serif;
     }
   
     /* Adjust padding for the song name in the middle */
@@ -282,7 +267,7 @@ ul{text-decoration: none; display: flex; gap: 10px; color: aliceblue;}
     border-radius: 25px;
     z-index: 3;
     text-shadow: 2px 2px 11px rgba(249, 249, 249, 0.4);
-    padding-top: 20px;font-family: 'Anton', sans-serif;
+    padding-top: 20px; font-family: 'Bebas Neue', sans-serif;
    ;color: black;  box-shadow: 1px 0px 6px 3px rgb(0, 0, 0);}
 
 
